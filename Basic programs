@@ -1,0 +1,65 @@
+1)
+
+print("Namaskara")
+
+
+2)
+
+name = input("Enter your name: ")
+age = int(input("Enter your age: "))
+
+print("Name:", name)
+print("Age:", age)
+
+3)
+
+a = 10
+b = 2.5
+c = "Python"
+
+print(type(a))
+print(type(b))
+print(type(c))
+
+4)
+a = 10
+b = 5
+
+print("Addition:", a + b)
+print("Subtraction:", a - b)
+print("Multiplication:", a * b)
+print("Division:", a / b)
+print("Modulus:", a % b)
+
+5)
+
+a = 10
+
+a += 5
+print("After += :", a)
+
+a -= 3
+print("After -= :", a)
+
+a *= 2
+print("After *= :", a)
+
+6)
+
+fruits = ["apple", "banana", "mango"]
+
+print(fruits)
+print("First fruit:", fruits[0])
+
+7)
+
+numbers = [1, 2, 3]
+
+numbers.append(4)
+numbers.insert(1, 10)
+numbers.remove(2)
+
+print(numbers)
+
+
+
