@@ -1,4 +1,4 @@
-# Step 1: Store one student
+# Storing the data of one student
 
 name = input("Enter student name: ")
 college = input("Enter college name: ")
@@ -6,9 +6,9 @@ course = input("Enter course name: ")
 percentage = input("Enter percentage: ")
 
 student = [name,
-                 college, 
-                 course, 
-                 percentage]
+           college, 
+           course, 
+           percentage]
 
 print("\nStudent Record:")
 print(student)
@@ -22,4 +22,3 @@ Enter percentage:   88
 Student Record:
 ['sanju', 'gfgc', 'bca', '88']
 
-[Program finished]
