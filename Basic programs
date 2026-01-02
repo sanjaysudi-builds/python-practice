@@ -1,9 +1,9 @@
-1)
+1) introduction
 
 print("Namaskara")
 
 
-2)
+2) basics
 
 name = input("Enter your name: ")
 age = int(input("Enter your age: "))
@@ -21,7 +21,7 @@ print(type(a))
 print(type(b))
 print(type(c))
 
-4)
+4) arithmetic_operators
 a = 10
 b = 5
 
@@ -31,7 +31,7 @@ print("Multiplication:", a * b)
 print("Division:", a / b)
 print("Modulus:", a % b)
 
-5)
+5) assignment_operators
 
 a = 10
 
@@ -44,7 +44,7 @@ print("After -= :", a)
 a *= 2
 print("After *= :", a)
 
-6)
+6) lists
 
 fruits = ["apple", "banana", "mango"]
 
