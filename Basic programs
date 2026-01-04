@@ -2,6 +2,9 @@
 
 print("Namaskara")
 
+Output:
+Namaskara
+
 
 2) basics
 
@@ -10,6 +13,15 @@ age = int(input("Enter your age: "))
 
 print("Name:", name)
 print("Age:", age)
+
+Example Input:
+Enter your name: San
+Enter your age: 20
+
+Output:
+Name: San
+Age: 20
+
 
 3)
 
@@ -21,6 +33,11 @@ print(type(a))
 print(type(b))
 print(type(c))
 
+Output:
+<class 'int'>
+<class 'float'>
+<class 'str'>
+
 4) arithmetic_operators
 a = 10
 b = 5
@@ -30,6 +47,13 @@ print("Subtraction:", a - b)
 print("Multiplication:", a * b)
 print("Division:", a / b)
 print("Modulus:", a % b)
+
+Output:
+Addition: 15
+Subtraction: 5
+Multiplication: 50
+Division: 2.0
+Modulus: 0
 
 5) assignment_operators
 
@@ -44,6 +68,11 @@ print("After -= :", a)
 a *= 2
 print("After *= :", a)
 
+Output:
+After += : 15
+After -= : 12
+After *= : 24
+
 6) lists
 
 fruits = ["apple", "banana", "mango"]
@@ -51,8 +80,12 @@ fruits = ["apple", "banana", "mango"]
 print(fruits)
 print("First fruit:", fruits[0])
 
-7)
+Output:
 
+['apple', 'banana', 'mango']
+First fruit: apple
+
+7)
 numbers = [1, 2, 3]
 
 numbers.append(4)
@@ -61,5 +94,7 @@ numbers.remove(2)
 
 print(numbers)
 
+Output:
+[1, 10, 3, 4]
 
 
