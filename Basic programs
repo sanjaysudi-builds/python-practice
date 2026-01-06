@@ -97,4 +97,23 @@ print(numbers)
 Output:
 [1, 10, 3, 4]
 
+8)
+#accessing string characters 
+
+text = " Pyhton "
+print(text[2])
+print(text[0])
+
+#assignment opertors 
+
+x = 5  
+x += 8        # add and assign 
+x -= 8        # subtract and assign 
+x *= 8        # multiply and assign 
+x /= 8        # divide and assign 
+x //= 8      # floor divide and assign 
+x %= 8     # modulus and assign 
+x **= 8    # exponent and assign 
+print(x)
+
 
