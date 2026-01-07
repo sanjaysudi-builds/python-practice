@@ -1,3 +1,14 @@
+# Python program to:
+1)Access the first element and the last element of the tuple
+
+2)Slice the tuple to get the middle three elements
+
+3)Concatenate this tuple with another tuple (60, 70)
+
+4)Use a tuple method to find:
+how many times 20 appears
+the index of 40
+
 # Tuple program 
 
 numbers = (10, 20, 30, 40, 50)
